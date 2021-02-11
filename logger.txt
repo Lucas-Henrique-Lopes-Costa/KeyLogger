@@ -1,0 +1,16 @@
+A tecla clicada foi: Key.caps_lock
+A tecla clicada foi: 't'
+A tecla clicada foi: Key.caps_lock
+A tecla clicada foi: 'h'
+A tecla clicada foi: 'i'
+A tecla clicada foi: 's'
+A tecla clicada foi: Key.space
+A tecla clicada foi: 'i'
+A tecla clicada foi: 's'
+A tecla clicada foi: Key.space
+A tecla clicada foi: 'a'
+A tecla clicada foi: Key.space
+A tecla clicada foi: 't'
+A tecla clicada foi: 'e'
+A tecla clicada foi: 's'
+A tecla clicada foi: 't'

